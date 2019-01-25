@@ -1,0 +1,39 @@
+ $post['careGiverConsentSaidShareDetails'] = $this->input->post('careGiverConsentSaidShareDetails');
+ $post['coordinatePoints'] = $this->input->post('coordinatePoints');
+ $post['countToStartedTreatmentHHM'] = $this->input->post('countToStartedTreatmentHHM');
+ $post['followUpLocation'] = $this->input->post('followUpLocation');
+ $post['hasSymptomsHHMPrevious'] = $this->input->post('hasSymptomsHHMPrevious');
+ $post['isAdrOccurenceSinceLastVisit'] = $this->input->post('isAdrOccurenceSinceLastVisit');
+ $post['isFirstTime'] = $this->input->post('isFirstTime');
+ $post['isStartedTreatmentToHHMPrevious'] = $this->input->post('isStartedTreatmentToHHMPrevious');
+ $post['lastUpdatedTime'] = $this->input->post('lastUpdatedTime');
+ $post['medicineNames'] = $this->input->post('medicineNames');
+ $post['monthOfTreatment'] = $this->input->post('monthOfTreatment');
+ $post['nextFollowUpDate'] = $this->input->post('nextFollowUpDate');
+ $post['noOfCareGiverRFT'] = $this->input->post('noOfCareGiverRFT');
+ $post['noOfDosesExpectedThisMon'] = $this->input->post('noOfDosesExpectedThisMon');
+ $post['noOfHHMPesent'] = $this->input->post('noOfHHMPesent');
+ $post['noOfHHMPrevious'] = $this->input->post('noOfHHMPrevious');
+ $post['noOfHHMRFT'] = $this->input->post('noOfHHMReferForTesting');
+
+ $post['noOfMissesThisMon'] = $this->input->post('noOfMissesThisMon');
+ $post['otherPatientCouncelingTopics'] = $this->input->post('otherPatientCouncelingTopics');
+ $post['retrievedBackTrtAftCouncel'] = $this->input->post('retrievedBackTrtAftCouncel');
+
+ $post['taskStatus'] = $this->input->post('taskStatus');
+ $post['type'] = $this->input->post('type');
+ $post['visitNo'] = $this->input->post('visitNo');
+
+ $post['counselorId'] = $this->input->post('counselorId');
+
+
+ $post['patientInfo'] = $this->input->post('patientInfo');
+ $post['tbStatusHHMId'] = $this->input->post('tbStatusHHMId');
+ $post['visitAtId'] = $this->input->post('visitAtId');
+
+ $post['careGiverName3'] = $this->input->post('careGiverName3');
+
+ $post['createdBy'] = $this->input->post('createdBy');
+ $post['modifiedBy'] = $this->input->post('modifiedBy');
+
+ mobTemporyId`

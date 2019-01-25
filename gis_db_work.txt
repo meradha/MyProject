@@ -1,0 +1,65 @@
+///////////////////Create table
+	CREATE TABLE myTest (code int(11),descrip varchar(255), g GEOMETRY);
+//////////////////Alter table point
+	ALTER TABLE myTest ADD pt_loca POINT; 
+/////////////////Drop table point
+	ALTER TABLE myTest DROP pt_loca ;
+//////////////// alter table line
+	ALTER TABLE myTest ADD lt_loca lineString; 
+//////////////// inser value 
+	SET @g = 'LINESTRING(0 0,1 2,2 4)';
+	INSERT INTO myTest VALUES (123,"Test Data",GeomFromText(@g));
+
+ 	SET @g ='MULTILINESTRING((22.699539 75.879753 , 22.699850,75.879134),(22.699850,75.879134,22.698939,75.878962),(22.698939,75.878962,22.698227,75.879907))';
+  	INSERT INTO myTest valueES (123,"Multistring",GeomFromText(@g));
+
+	SET @g ='MULTILINESTRING((12 12, 22 22), (19 19, 32 18))';
+  	INSERT INTO geotest valueES (123,"Multistring",GeomFromText(@g));
+
+SELECT `code` as id , ASWKT(g) AS `aswkt`, X(g) AS `lat`, Y(g) AS `lng` FROM `myTest` LIMIT 100
+
+SELECT `code` as id , ASWKT(g) AS `aswkt`, X(g) AS `lat`, Y(g) AS `lng` FROM `myTest` LIMIT 100
+
+
+MULTILINESTRING((22.699539 75.879753 , 22.699850,75.879134),(22.699850,75.879134,22.698939,75.878962),(22.698939,75.878962,22.698227,75.879907))
+  	///
+
+  	navlakkha indore  kamla nehru park
+
+  	22.699539 75.879753
+  	22.699850,75.879134
+  	22.698939,75.878962
+  	22.698227,75.879907
+  	22.697712,75.881668
+  	22.699216,75.883686
+  	22.700404,75.884502
+  	22.700958,75.882398
+	22.701315,75.880895
+
+jail
+
+	22.727590,75.864348
+	22.726838,75.864992
+	22.726522,75.865463
+	22.726403,75.866149
+	22.726680,75.866707
+	22.726917,75.867265
+	22.727841,75.867579
+
+
+
+
+
+
+
+
+	ex l
+	SELECT 
+ST_X(myTest.g) AS X1,
+ST_Y(myTest.g) AS Y1,
+X1(ST_TRANSFORM(myTest.g,4674)) AS `LONG`,
+Y1(ST_TRANSFORM(myTest.g,4674)) AS `LAT`, 
+ST_ASTEXT(myTest.g) AS XY,
+ST_ASTEXT(ST_TRANSFORM(myTest.geometry,4674)) AS `LongLat` 
+FROM
+myTest 

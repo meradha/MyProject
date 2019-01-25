@@ -1,0 +1,1 @@
+SELECT t.* FROM (SELECT a.*, GROUP_CONCAT(b.paper_name ORDER BY b.id) paper_name, GROUP_CONCAT(b.subject_id ORDER BY b.id) subject_id, GROUP_CONCAT(b.paper_year ORDER BY b.id) year FROM tbl_combo_paper a INNER JOIN tbl_papers b ON FIND_IN_SET(b.id, a.paper_id) > 0 GROUP BY a.id) t

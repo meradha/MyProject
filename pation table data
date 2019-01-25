@@ -1,0 +1,89 @@
+$post['address'] = $this->input->post('address'); 
+adharNo
+age
+city
+$post['coordinatePoints'] = $this->input->post('coordinatePoints'); 
+$post['counselorCode'] = $this->input->post('counselorCode'); 
+$post['diabetisArtCenter'] = $this->input->post('diabetisArtCenter'); 
+$post['districtName'] = $this->input->post('districtName'); 
+$post['educationQualificationOther'] = $this->input->post('educationQualificationOther'); 
+emailId
+gender
+$post['hasAdhar'] = $this->input->post('hasAdhar'); 
+$post['hasBaseLine'] = $this->input->post('hasBaseLine'); 
+$post['hasFingerPrint'] = $this->input->post('hasFingerPrint'); 
+
+$post['hivArtCenter'] = $this->input->post('hivArtCenter'); 
+$post['isPresakham'] = $this->input->post('isPresakham'); 
+$post['landmark'] = $this->input->post('landmark'); 
+$post['lastUpdatedTime'] = $this->input->post('lastUpdatedTime'); 
+$post['localityTypeOther'] = $this->input->post('localityTypeOther'); 
+name
+$post['nextFollowUpDate'] = $this->input->post('nextFollowUpDate'); 
+$post['otherCaste'] = $this->input->post('otherCaste'); 
+$post['otherEducationQualification'] = $this->input->post('otherEducationQualification'); 
+$post['otherHistoryPatientSubstance'] = $this->input->post('otherHistoryPatientSubstance'); 
+$post['otherReferAndLinkage'] = $this->input->post('otherReferAndLinkage'); 
+pin
+$post['preSakshamPatientId'] = $this->input->post('preSakshamPatientId'); 
+$post['priorityName'] = $this->input->post('priorityName'); 
+$post['priorityReason'] = $this->input->post('priorityReason'); 
+$post['sakhamRegistrationDate'] = $this->input->post('sakhamRegistrationDate'); 
+$post['telephoneNo'] = $this->input->post('telephoneNo'); 
+$post['temporaryPreSakhamPatientId'] = $this->input->post('temporaryPreSakhamPatientId'); 
+$post['temporarySakshamPatientId'] = $this->input->post('temporarySakshamPatientId'); 
+$post['totalNumOfEarningMembers'] = $this->input->post('totalNumOfEarningMembers'); 
+$post['treatmentCenterId'] = $this->input->post('treatmentCenterId'); 
+casteId
+$post['CounselorId'] = $this->input->post('CounselorId'); 
+$post['createdBy'] = $this->input->post('createdBy'); 
+$post['followUpPlaceTypeId'] = $this->input->post('followUpPlaceTypeId'); 
+$post['heathcareProvideContactId'] = $this->input->post('heathcareProvideContactId'); 
+$post['livingLocalityId'] = $this->input->post('livingLocalityId'); 
+$post['lostToFollowUpPatientLatestId'] = $this->input->post('lostToFollowUpPatientLatestId'); 
+$post['modifiedBy'] = $this->input->post('modifiedBy'); 
+$post['occupationId'] = $this->input->post('occupationId'); 
+$post['patientReferralsTransLatestId'] = $this->input->post('patientReferralsTransLatestId'); 
+$post['patientVisitTransactionLatestId'] = $this->input->post('patientVisitTransactionLatestId'); 
+$post['priorityId'] = $this->input->post('priorityId'); 
+
+$post['reportedDRTBStatusId'] = $this->input->post('reportedDRTBStatusId'); 
+$post['reportedTBPhaseId'] = $this->input->post('reportedTBPhaseId'); 
+$post['reportedTBTypeId'] = $this->input->post('reportedTBTypeId'); 
+$post['allStateId'] = $this->input->post('allStateId'); 
+$post['unEmploymentCauseId'] = $this->input->post('unEmploymentCauseId'); 
+$post['verifiedDRTBStatusWithCardId'] = $this->input->post('verifiedDRTBStatusWithCardId'); 
+$post['verifiedPhaseWithCardId'] = $this->input->post('verifiedPhaseWithCardId'); 
+$post['verifiedTBTypeWithCardId'] = $this->input->post('verifiedTBTypeWithCardId'); 
+$post['visitedPlaceId'] = $this->input->post('visitedPlaceId'); 
+$post['wardName'] = $this->input->post('wardName'); 
+$post['dateOfCounsellingDone'] = $this->input->post('dateOfCounsellingDone'); 
+$post['hmemberTBtest'] = $this->input->post('hmemberTBtest'); 
+$post['hmemberTBtest1'] = $this->input->post('hmemberTBtest1'); 
+$post['hmemberTBtest2'] = $this->input->post('hmemberTBtest2'); 
+$post['hmemberTBtest3'] = $this->input->post('hmemberTBtest3'); 
+$post['hmemberTBtest4'] = $this->input->post('hmemberTBtest4'); 
+$post['patient_tbstatus'] = $this->input->post('patient_tbstatus'); 
+$post['patient_tbstatus1'] = $this->input->post('patient_tbstatus1'); 
+$post['patient_tbstatus2'] = $this->input->post('patient_tbstatus2'); 
+$post['reasonForLFU'] = $this->input->post('reasonForLFU'); 
+$post['timeLapsed'] = $this->input->post('timeLapsed'); 
+$post['districtId'] = $this->input->post('districtId'); 
+$post['lfuReportedByPatient'] = $this->input->post('lfuReportedByPatient'); 
+$post['revertedBackTreatment'] = $this->input->post('revertedBackTreatment'); 
+$post['rmtcpregDate'] = $this->input->post('rmtcpregDate'); 
+$post['otherRationCardType'] = $this->input->post('otherRationCardType'); 
+$post['isActive'] = $this->input->post('isActive'); 
+$post['houseHoldMemberRefferedToSputumTesting'] = $this->input->post('houseHoldMemberRefferedToSputumTesting'); 
+$post['houseHoldMemberTBTestResult'] = $this->input->post('houseHoldMemberTBTestResult'); 
+$post['houseHoldMemberTBTreatmentStarted'] = $this->input->post('houseHoldMemberTBTreatmentStarted'); 
+$post['houseHoldTbTestResultNegativeNo'] = $this->input->post('houseHoldTbTestResultNegativeNo'); 
+$post['houseHoldTbTestResultPositiveNo'] = $this->input->post('houseHoldTbTestResultPositiveNo'); 
+$post['refferedForSputumTestingNoNo'] = $this->input->post('refferedForSputumTestingNoNo'); 
+$post['refferedForSputumTestingYesNo'] = $this->input->post('refferedForSputumTestingYesNo'); 
+$post['treatmentInterruptionReportedByPatient'] = $this->input->post('treatmentInterruptionReportedByPatient'); 
+$post['hivPositiveStatusOfTreatment'] = $this->input->post('hivPositiveStatusOfTreatment'); 
+$post['reasonForLFUNew'] = $this->input->post('reasonForLFUNew'); 
+$post['fingerPrint'] = $this->input->post('fingerPrint'); 
+$post['fpdbName'] = $this->input->post('fpdbName'); 
+$post['isMigrate'] = $this->input->post('isMigrate'); 

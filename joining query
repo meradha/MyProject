@@ -1,0 +1,12 @@
+SELECT a.`paper_duration`, a.`total_marks`, a.`no_of_questions` , b.question_marks , count(b.question_type) FROM `tbl_papers` a  LEFT JOIN  tbl_questions b  ON  a.id= b.paper_id WHERE b.question_type = 'mcq' AND a.id = 2
+
+
+
+----------------
+SELECT COUNT(*) no_of_question, question_type, question_marks, (COUNT(*)*question_marks) question_total_marks FROM `tbl_questions` WHERE paper_id='2' GROUP BY question_type, question_marks
+
+SELECT paper_duration,total_marks, no_of_questions FROM `tbl_papers` WHERE id='2'
+
+
+------------------------------------
+

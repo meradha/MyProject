@@ -1,0 +1,65 @@
+$post['sakshamPatientId'] = $this->input->post('sakshamPatientId'); 
+$post['blockTalukaTUName'] = $this->input->post('blockTalukaTUName');
+$post['consentForCouseling'] = $this->input->post('consentForCouseling'); 
+$post['shareDetails'] = $this->input->post('shareDetails'); 
+$post['contentToCareGivers'] = $this->input->post('contentToCareGivers'); 
+$post['contentToReceiveSMS'] = $this->input->post('contentToReceiveSMS'); 
+$post['name'] = $this->input->post('firstName'); 
+$post['middleName'] = $this->input->post('middleName'); 
+$post['lastName'] = $this->input->post('lastName'); 
+$post['fatherName'] = $this->input->post('fatherFirstName'); 
+$post['fatherMiddleName'] = $this->input->post('fatherMiddleName'); 
+$post['fatherLastName'] = $this->input->post('fatherLastName'); 
+$post['mobileNo'] = $this->input->post('havePersonalMobileNumber'); 
+$post['districtCode'] = $this->input->post('districtCode'); 
+$post['permanentAddressId'] = $this->input->post('permanentAddressId'); 
+$post['presentAddressId'] = $this->input->post('presentAddressId'); 
+$post['sakshamRegDate'] = $this->input->post('sakshamRegDate'); 
+$post['patientDateOfBirth'] = $this->input->post('patientDateOfBirth'); 
+$post['religionId'] = $this->input->post('patient_religion'); 
+$post['casteId'] = $this->input->post('patient_caste'); 
+$post['adharSatus'] = $this->input->post('adharSatus'); 
+$post['adharNo'] = $this->input->post('adharNo'); 
+$post['rationcardColorId'] = $this->input->post('rationcardColor'); 
+$post['localityTypeId'] = $this->input->post('localityType'); 
+$post['age'] = $this->input->post('age'); 
+$post['gender'] = $this->input->post('gender');
+$post['educationQualificationId'] = $this->input->post('educationQualification'); 
+$post['workingStatus'] = $this->input->post('workingStatus'); 
+$post['stayingWithId'] = $this->input->post('stayingWith'); 
+$post['houseHoldMembers'] = $this->input->post('houseHoldMembers'); 
+$post['totalNumOfChildrensLessThanSixYears'] = $this->input->post('totalNumOfChildrensLessThanSixYears'); 
+$post['totalNumOfEarningMembers'] = $this->input->post('totalNumOfEarningMembers'); 
+$post['houseHoldIncomeRangeId'] = $this->input->post('houseHoldIncomeRangeId'); 
+$post['marriageStatusId'] = $this->input->post('marriageStatusId'); 
+$post['historySubstance'] = $this->input->post('historyPatientSubstance'); 
+$post['visitedPlaceHome'] = $this->input->post('visitedPlaceHome'); 
+$post['visitedPlaceWorkPlace'] = $this->input->post('visitedPlaceWorkPlace'); 
+$post['organEffected'] = $this->input->post('organEffected'); 
+$post['healthFaciityName'] = $this->input->post('healthFaciityName'); 
+$post['rmtcppmdtNo'] = $this->input->post('rmtcppmdtNo'); 
+$post['rntcpRegistrationDate'] = $this->input->post('rntcpRegistrationDate'); 
+$post['drtbDiagnosedDate'] = $this->input->post('drtbDiagnosedDate'); 
+$post['drtbTreatementStarted'] = $this->input->post('drtbTreatementStarted'); 
+$post['historyOfTBTreatement'] = $this->input->post('historyOfTBTreatement'); 
+$post['historyTBTreatmentCauseId'] = $this->input->post('historyTBTreatmentCause'); 
+$post['hasHIV'] = $this->input->post('hasHIV'); 
+///
+$post['hasDiabetes'] = $this->input->post('hasDiabetes'); 
+///
+$post['otherDiseaseCondition'] = $this->input->post('otherDiseaseCondition'); 
+///councllor
+$post['followUpLocation'] = $this->input->post('followUpLocation'); 
+$post['counselorRemarks'] = $this->input->post('counselorRemarks'); 
+$post['councelorName'] = $this->input->post('councelorName'); 
+
+
+
+
+
+
+
+
+
+
+
